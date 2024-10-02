@@ -14,7 +14,7 @@ API_URL = 'https://api.shocklink.net/2/shockers/control'
 API_KEY = 'apikey'
 SHOCK_ID = 'shockerid'
 SCREENSHOT_INTERVAL = 5  # seconds
-DELETE_AFTER = timedelta(minutes=5)
+DELETE_AFTER = timedelta(minutes=5) # change this to a lower value if you need the extra space or are privacy concerned, it's set to 5 minutes by default just to ensure stuff 100% works
 SHOCK_COOLDOWN = 60  # seconds
 MATCH_THRESHOLD = 0.8  # threshold for template matching
 
