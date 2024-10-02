@@ -53,7 +53,7 @@ def send_api_request():
             'duration': 1000,
             'exclusive': True
         }],
-        'customName': 'ScreenOCRTrigger'
+        'customName': 'ScreenShock'
     }
 
     response = requests.post(url=API_URL, headers=headers, json=payload)
