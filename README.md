@@ -15,4 +15,6 @@ You need these packages:
 sudo apt install grim tesseract-ocr libopencv-dev python3 python3-pip build-essential
 ```
 - For Arch
+```
 sudo pacman -S grim tesseract-ocr libopencv-dev python python-pip build-essential
+```
