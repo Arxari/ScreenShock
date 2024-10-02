@@ -11,8 +11,8 @@ from datetime import datetime, timedelta
 REFERENCE_FOLDER = 'reference_images'
 SCREENSHOT_FOLDER = 'screenshots'
 API_URL = 'https://api.shocklink.net/2/shockers/control'
-API_KEY = 'cfVNzGzgTSugwbJwGFgUVSoAuRT77bTnuG2vxbIhMYqyY8Zi2yZNqVOaA15EWUiN'
-SHOCK_ID = 'c75ad4c6-5d18-4a55-b4a2-797184caedd5'
+API_KEY = 'apikey'
+SHOCK_ID = 'shockerid'
 SCREENSHOT_INTERVAL = 5  # seconds
 DELETE_AFTER = timedelta(minutes=5)
 SHOCK_COOLDOWN = 60  # seconds
@@ -53,7 +53,7 @@ def send_api_request():
             'duration': 1000,
             'exclusive': True
         }],
-        'customName': 'ScreenShock'
+        'customName': 'ScreenS'
     }
 
     response = requests.post(url=API_URL, headers=headers, json=payload)
