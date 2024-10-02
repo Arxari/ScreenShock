@@ -1,0 +1,5 @@
+pillow==8.4.0
+pytesseract==0.3.8
+opencv-python==4.5.5.64
+numpy==1.21.5
+requests==2.26.0
