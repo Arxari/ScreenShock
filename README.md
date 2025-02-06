@@ -17,4 +17,5 @@ just cd into the folder and run `pip install -r requirements.txt`
 sudo pacman -S grim python python-requests python-opencv python-numpy
 ```
 Or you can also do the pip method
-Replace `grim` with `spectacle` if you're on KDE and `gnome-screenshot` if you're on GNOME
+
+- Replace `grim` with `spectacle` if you're on KDE and `gnome-screenshot` if you're on GNOME - If youu installed these DEs normally or they came with your distro these should be included
